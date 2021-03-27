@@ -1,7 +1,3 @@
-// let getVideo = function (videoData) {
-//     return document.createElement('article'); //Ovde returnuj html ovog artikla i podmetni mu vrednosti koje ti trebaju iz ovog video data (tipa tumbnail, itd)
-// }
-
 function fetchVideos() {
     const options = {
         method: 'GET',
