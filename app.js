@@ -11,7 +11,7 @@ function fetchVideos() {
         .then(res => res.json())
         .then(
             response => {
-                for (let i = 0; i <= 25; i++) {
+                for (let i = 0; i <= response.length.data; i++) {
                     let videoContainer = document.createElement("article");
                     videoContainer.className += "video-container";
                     let thumbnail = document.createElement("a");
